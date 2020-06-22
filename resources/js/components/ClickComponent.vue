@@ -25,6 +25,8 @@
                 this.item.y = event.pageY;
                 // this.item.Date = Date();
 
+                console.log(event);
+
                 axios.post('/click', this.item).then(response => {
                     //
                 })

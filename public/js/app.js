@@ -1929,6 +1929,7 @@ __webpack_require__.r(__webpack_exports__);
       this.item.x = event.pageX;
       this.item.y = event.pageY; // this.item.Date = Date();
 
+      console.log(event);
       axios.post('/click', this.item).then(function (response) {//
       });
     }
